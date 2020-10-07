@@ -1,0 +1,19 @@
+include: package:lint/analysis_options.yaml
+# https://pub.dev/packages/lint
+
+linter:
+  rules:
+    # ------ Disable individual rules ----- #
+    #                 ---                   #
+    # Turn off what you don't like.         #
+    # ------------------------------------- #
+    # Write Something
+    # ------------------------------------- #
+
+    # ------ Enable individual rules ------ #
+    #                 ---                   #
+    # These rules here are good but too     #
+    # opinionated to enable them by default #
+    # ------------------------------------- #
+    # Write Something
+    # ------------------------------------- #
