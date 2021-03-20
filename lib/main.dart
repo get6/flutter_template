@@ -1,3 +1,4 @@
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:template/pages/home_page.dart';
 import 'package:template/pages/loading_page.dart';
 import 'package:template/pages/something_went_wrong.dart';
@@ -5,12 +6,12 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/all.dart';
 
 void main() {
   // Unhandled Exception: ServicesBinding.defaultBinaryMessenger was accessed before the binding was initialized.
   WidgetsFlutterBinding.ensureInitialized();
   runApp(ProviderScope(child: MyApp()));
+  // runApp(ProviderScope(child: newApp()));
 }
 
 class MyApp extends StatelessWidget {
